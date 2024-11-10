@@ -96,9 +96,7 @@ class AppHealthChecker:
 def main():
     # Define applications to monitor
     apps = {
-        'Main Website': 'https://example.com',
-        'API Server': 'https://api.example.com/health',
-        'Admin Panel': 'https://admin.example.com/status'
+        'Main Website': 'https://example.com'
     }
     
     # Create and run the health checker
